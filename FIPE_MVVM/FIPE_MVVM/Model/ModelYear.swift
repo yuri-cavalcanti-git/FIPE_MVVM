@@ -1,12 +1,11 @@
 //
-//  Brand.swift
+//  ModelYear.swift
 //  FIPE_MVVM
 //
 //  Created by Yuri Cavalcanti on 02/12/20.
 //
 
 import Foundation
-
-class Brand: BaseClass {
-
+class ModelYear: BaseClass {
+    
 }

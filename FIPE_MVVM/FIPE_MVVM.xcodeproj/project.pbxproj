@@ -14,6 +14,10 @@
 		DA5CE3A4257865B3004ED965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5CE3A3257865B3004ED965 /* Assets.xcassets */; };
 		DA5CE3A7257865B3004ED965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5CE3A5257865B3004ED965 /* LaunchScreen.storyboard */; };
 		DA5CE3B125786731004ED965 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5CE3B025786731004ED965 /* Brand.swift */; };
+		DAE883B625786B2500FB1993 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE883B525786B2500FB1993 /* BaseClass.swift */; };
+		DAE883B925786B6F00FB1993 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE883B825786B6F00FB1993 /* Model.swift */; };
+		DAE883BD25786B8E00FB1993 /* ModelYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE883BC25786B8E00FB1993 /* ModelYear.swift */; };
+		DAE883C025786BAD00FB1993 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE883BF25786BAD00FB1993 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		DA5CE3A6257865B3004ED965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA5CE3A8257865B3004ED965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA5CE3B025786731004ED965 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		DAE883B525786B2500FB1993 /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		DAE883B825786B6F00FB1993 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DAE883BC25786B8E00FB1993 /* ModelYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelYear.swift; sourceTree = "<group>"; };
+		DAE883BF25786BAD00FB1993 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +81,11 @@
 		DA5CE3AF2578671A004ED965 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DAE883B525786B2500FB1993 /* BaseClass.swift */,
 				DA5CE3B025786731004ED965 /* Brand.swift */,
+				DAE883B825786B6F00FB1993 /* Model.swift */,
+				DAE883BC25786B8E00FB1993 /* ModelYear.swift */,
+				DAE883BF25786BAD00FB1993 /* Car.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,9 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5CE39F257865B0004ED965 /* ViewController.swift in Sources */,
+				DAE883B625786B2500FB1993 /* BaseClass.swift in Sources */,
+				DAE883C025786BAD00FB1993 /* Car.swift in Sources */,
 				DA5CE3B125786731004ED965 /* Brand.swift in Sources */,
+				DAE883B925786B6F00FB1993 /* Model.swift in Sources */,
 				DA5CE39B257865B0004ED965 /* AppDelegate.swift in Sources */,
 				DA5CE39D257865B0004ED965 /* SceneDelegate.swift in Sources */,
+				DAE883BD25786B8E00FB1993 /* ModelYear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
