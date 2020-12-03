@@ -1,5 +1,5 @@
 //
-//  Brand.swift
+//  Model.swift
 //  FIPE_MVVM
 //
 //  Created by Yuri Cavalcanti on 02/12/20.
@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Brand: BaseClass {
-
+class Model: BaseClass {
+    
 }
